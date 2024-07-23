@@ -4,7 +4,7 @@ $conn = mysqli_connect("localhost", 'root' , '', "anime") or die("Connection fai
 
 $websiteTitle = "Zoro";
 $websiteUrl = "//{$_SERVER['localhost:8888']}";
-$websiteLogo = localhost:8888 . "/files/images/logo_zoro.png";
+$websiteLogo = $websiteUrl . "/files/images/logo_zoro.png";
 $contactEmail = "@gmail.com";
 
 $version = "0.1";
