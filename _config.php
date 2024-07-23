@@ -3,7 +3,7 @@ $conn = mysqli_connect("localhost", 'root' , '', "anime") or die("Connection fai
 
 
 $websiteTitle = "Zoro";
-$websiteUrl = "//{$_SERVER['SERVER_NAME']}";
+$websiteUrl = "//{$_SERVER['localhost:8888']}";
 $websiteLogo = localhost:8888 . "/files/images/logo_zoro.png";
 $contactEmail = "@gmail.com";
 
@@ -14,7 +14,7 @@ $github = "https://github.com/kirixen";
 $twitter = "https://x.com/KiriX3n";
  
 $disqus = "https://.disqus.com/embed.js";
-$api = "https://.vercel.app"; 
+$api = "http://localhost:3000"; 
 
 $banner = $websiteUrl . "/files/images/banner.png";
 ?>
